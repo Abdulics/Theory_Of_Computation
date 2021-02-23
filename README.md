@@ -1,2 +1,2 @@
 # Theory_Of_Computation
-Class assignments 
+Theory of computation class assignments.
