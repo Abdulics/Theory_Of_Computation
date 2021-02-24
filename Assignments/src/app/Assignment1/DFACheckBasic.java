@@ -19,13 +19,13 @@ public class DFACheckBasic {
 	public static boolean boo;
 
 	public static void main(String[] args) {
-		String fName = "";
-		if (0 < args.length) {
-			   fName = args[0];
-			} else {
-			   System.err.println("Invalid arguments count:" + args.length);
-			   System.exit(0);
-			}
+		String fName = "data.txt";
+		// if (0 < args.length) {
+		// 	   fName = args[0];
+		// 	} else {
+		// 	   System.err.println("Invalid arguments count:" + args.length);
+		// 	   System.exit(0);
+		// 	}
 		ArrayList<String> listData = fileReader(fName);
 
 		for (String str : listData) {
